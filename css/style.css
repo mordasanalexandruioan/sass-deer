@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border-bottom: solid 1px black;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+  width: 1.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.75rem;
+  list-style: none;
+}
+header aside {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+header aside img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+header .headerSubtitle {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+main {
+  padding: 3em 1.24em;
+}
+main p,
+main aside {
+  font-size: 1.1rem;
+}
+main section {
+  margin: 0 0 6em;
+}
+main .history-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8em;
+  box-shadow: 2px 3px 10px rgba(149, 149, 149, 0.644);
+  overflow: hidden;
+  padding-left: 0.6em;
+  margin-bottom: 3em;
+}
+main .history-intro img {
+  width: 300px;
+  height: 180px;
+  margin-left: 0.3em;
+}
+main .history-intro h2,
+main .history-intro p {
+  margin: 0;
+}
+main .secondAside {
+  padding: 0.3em 0.4em;
+}
+main .chinaDeer h2,
+main .babyDeer h2 {
+  text-align: right;
+  font-size: 4rem;
+  margin: 0;
+  color: #cccccc;
+}
+main .chinaDeer aside,
+main .babyDeer aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .chinaDeer aside img,
+main .babyDeer aside img {
+  width: 300px;
+  border-radius: 0.4em;
+  margin-right: 0.6em;
+  box-shadow: 2px 3px 10px rgba(100, 100, 100, 0.644);
+}
+main .babyDeer h2 {
+  text-align: left;
+}
+main .babyDeer aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main .babyDeer aside img {
+  width: 200px;
+  height: 150px;
+  margin-top: 0.5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
